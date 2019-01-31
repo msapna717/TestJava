@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="git suite">
+
+    <test name="git TestSuite">
+    <parameter name="env" value="QA"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://github.com/login"/>
+	<parameter name="sUsername" value="msapna717@gmail.com"/>
+	<parameter name="sPassword" value="Testing@79"/>
+
+		<classes>
+
+		    <class name="com.parameter.ParameterTest" />
+
+		</classes>
+
+    </test>
+
+</suite>
